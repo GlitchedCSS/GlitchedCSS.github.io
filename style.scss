@@ -1,0 +1,221 @@
+// Glitchy CSS Framework
+
+// Imports
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+// General Reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+// Default Button
+
+.btn {
+    padding: 15px 20px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-decoration: none;
+    color: rgba(0, 140, 255, 1);
+    cursor: pointer;
+    transition: filter 0.5s, box-shadow 0.5s;
+    margin: 5px;
+}
+
+// Button On Hover
+
+.btn:hover {
+    filter: brightness(1.25);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3), inset 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+// Outlined Button Style
+
+.btn-outline {
+    border: 0.5px solid rgba(0, 140, 255, 1);
+}
+
+.btn-outline-round {
+    border: 0.5px solid rgba(0, 140, 255, 1);
+    border-radius: 50px;
+}
+
+// Outlined Button Color Scheme
+
+.btn-outline-primary {
+    border-color: rgba(135, 43, 255, 1);
+    color: rgba(135, 43, 255, 1);
+}
+
+.btn-outline-secondary {
+    border-color: rgba(45, 108, 255, 1);
+    color: rgba(45, 108, 255, 1);
+}
+
+.btn-outline-success {
+    border-color: rgba(52, 185, 0, 1);
+    color: rgba(52, 185, 0, 1);
+}
+
+.btn-outline-danger {
+    border-color: rgba(255, 84, 84, 1);
+    color: rgba(255, 84, 84, 1);
+}
+
+.btn-outline-warning {
+    border-color: rgba(255, 156, 64, 1);
+    color: rgba(255, 156, 64, 1);
+}
+
+.btn-outline-info {
+    border-color: rgba(88, 85, 241, 1);
+    color: rgba(88, 85, 241, 1);
+}
+
+.btn-outline-light {
+    border-color: rgba(195, 195, 195, 1);
+    color: rgba(195, 195, 195, 1);
+}
+
+.btn-outline-dark {
+    border-color: rgba(49, 49, 49, 1);
+    color: rgba(49, 49, 49, 1);
+}
+
+// Normal Button Color Scheme
+
+.btn-primary {
+    background-color: rgba(135, 43, 255, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.btn-secondary {
+    background-color: rgba(45, 108, 255, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.btn-success {
+    background-color: rgba(52, 185, 0, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.btn-danger {
+    background-color: rgba(255, 84, 84, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.btn-warning {
+    background-color: rgba(255, 156, 64, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.btn-info {
+    background-color: rgba(88, 85, 241, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.btn-light {
+    background-color: rgba(195, 195, 195, 1);
+    color: rgba(0, 0, 0, 1);
+}
+
+.btn-dark {
+    background-color: rgba(49, 49, 49, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+// Rounded Button Style
+
+.btn-round {
+    border-radius: 50px;
+}
+
+// Section Style
+
+.section {
+    width: 100%;
+    height: 100%;
+}
+
+// Paragraph Styles
+
+p {
+    margin-bottom: 0.4rem;
+    display: block;
+}
+
+// Heading Styles
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0.5rem 0;
+    display: block;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 33px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 26px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+// Input styles
+
+.form-input-text {
+    padding: 5px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgba(199, 199, 199, 1);
+    transition: background-color 0.25s, box-shadow 0.25s;
+    outline: none;
+}
+
+// Input's Placeholder Style
+
+.form-input-text::placeholder {
+    color: rgba(238, 238, 238, 1);
+}
+
+// Input's Placeholder Style On Focus
+
+.form-input-text:focus::placeholder {
+    color: rgba(126, 126, 126, 1);
+}
+
+// Input's Focus Style
+
+.form-input-text:focus {
+    background-color: rgba(255, 255, 255, 1);
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3), inset 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+// Container Styles
+
+.container {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
