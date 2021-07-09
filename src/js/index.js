@@ -7,7 +7,7 @@ function initPageLoadEvent() {
     var link = document.createElement('link');
     link.rel = 'stylesheet';
     link.type = 'text/css';
-    link.href = './../src/styles/style.css';
+    link.href = 'https://glitchedcss.github.io/src/styles/style.css';
     head.appendChild(link);
 
     // Extras
